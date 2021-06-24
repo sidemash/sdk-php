@@ -1,0 +1,31 @@
+{
+  "description": "The Official Sidemash Cloud SDK for PHP",
+  "keywords": ["live", "stream", "streaming", "cloud"],
+  "type": "library",
+ 
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/sidemash/sdk-php",
+  "authors": [{
+      "name": "Sidemash Cloud",
+      "email": "opensource@sidemash.com",
+      "homepage": "https://www.sidemash.com"
+  }],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*"
+  },
+  "support": {
+        "issues": "https://github.com/sidemash0/sdk-php/issues",
+        "source": "https://github.com/sidemash0/sdk-php"
+    },
+  "autoload": {
+    "psr-4": {
+      "Sidemash\\": "src/"
+    }
+  }
+}
+
