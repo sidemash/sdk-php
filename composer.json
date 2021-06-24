@@ -2,7 +2,7 @@
   "description": "The Official Sidemash Cloud SDK for PHP",
   "keywords": ["live", "stream", "streaming", "cloud"],
   "type": "library",
- 
+  "name": "sidemash/sdk-php",
   "license": "Apache-2.0",
   "homepage": "https://github.com/sidemash/sdk-php",
   "authors": [{
